@@ -1,6 +1,8 @@
 ## SODV1201 Intro Web Programming - Project Clock with JS
 # [Link to website](https://devjody.github.io/sodv1201_webprog_project_clock/)
-- Just to note, the toggle feature isn't running atm and also I have an alarm sound to add in the future! Thank you. 
+- Just to note, the toggle feature isn't running atm and also I have an alarm sound to add in the future! 
+- Also need to add in @media enquires for rd but that wasn't a requirement for this project. 
+Thank you. 
 -----
 ![SODV1201 Intro Web Programming - Project Clock with JS](img/final.png)
 -----
