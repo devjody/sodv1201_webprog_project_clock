@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>SODV1202 Project Clock - Jody B</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="title">
+          <p><span>Project</span><br />Clock</p>
+        </div>
+        <!-- ANALOG CLOCK OUTPUT -->
+        <div class="container analog">
+          <div class="clock" id="timeAnalog">
+            <div class="hand hour" data-hour-hand></div>
+            <div class="hand minute" data-minute-hand></div>
+            <div class="hand second" data-second-hand></div>
+            <div class="number number1">&#10008;</div>
+            <div class="number number2">&#10008;</div>
+            <div class="number number3">&#10008;</div>
+            <div class="number number4">&#10008;</div>
+            <div class="number number5">&#10008;</div>
+            <div class="number number6">&#10008;</div>
+            <div class="number number7">&#10008;</div>
+            <div class="number number8">&#10008;</div>
+            <div class="number number9">&#10008;</div>
+            <div class="number number10">&#10008;</div>
+            <div class="number number11">&#10008;</div>
+            <div class="number number12">&#10008;</div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section>
+          <!-- DIGITAL CLOCK OUTPUT -->
+          <div class="container digital">
+            <h1><span class="timeDigital">00:00:00</span></h1>
+            <div class="container-alarmSet">
+              <p class="alarmSet">No Alarm Set</p>
+            </div>
+            <div class="digitalFormat">
+              <button class="timeFormat">Switch Format</button>
+              <button class="toggle">Toogle Analog</button>
+            </div>
+
+            <!-- SWITCH TIME FORMAT -->
+          </div>
+
+          <div class="stopwatch-container">
+            <div class="stopwatch-output-container">
+              <p>
+                <span id="minuteOutput" class="swOutput">00</span> :
+                <span id="secondOutput" class="swOutput">00</span> :
+                <span id="millisOutput" class="swOutput">00</span>
+              </p>
+            </div>
+            <div class="button-container">
+              <button
+                class="button-start"
+                type="button"
+                value="start"
+                name="start"
+              >
+                Start ▶
+              </button>
+              <button
+                class="button-stop"
+                type="button"
+                value="stop"
+                name="stop"
+              >
+                Stop 🛑
+              </button>
+              <button
+                class="button-reset"
+                type="button"
+                value="reset"
+                name="reset"
+              >
+                Reset ♾
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <div class="container-alarm">
+        <!-- SET ALARM SET TIME INPUT -->
+        <button class="clearTime">Clear Time</button>
+        <button class="setTime">Custom Time</button>
+        <select  name="setHour" class="setHour"></select>
+        <select  name="setMinute" class="setMinute"></select>
+        <!-- SET ALARM CONTROLS -->
+        <button class="setAlarm">Set Alarm</button>
+        <button class="clearAlarm">Clear Alarm</button>
+      </div>
+    </div>
+    <footer>
+      <h2>
+        SODV1201 Intro Web Programming - Project - Copyright &copy; Jody B 2020
+      </h2>
+    </footer>
+    <script src="clock.js"></script>
+  </body>
+</html>
